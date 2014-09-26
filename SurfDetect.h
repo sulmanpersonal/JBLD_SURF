@@ -23,7 +23,7 @@ public:
 	void getDescriptor(const cv::Mat mFrame, std::vector<cv::KeyPoint> &kp,
 			cv::Mat &mDescription);
 	std::vector<cv::DMatch> getMatches(const cv::Mat mDescript1,
-			const cv::Mat mDescript2);
+			const cv::Mat mDescript2, const float minDist);
 };
 
 #endif /* SURFDETECT_H_ */

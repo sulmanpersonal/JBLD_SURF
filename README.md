@@ -6,4 +6,14 @@
 
 ## First call----> cmake .
 ## Then call ----> make
-## Then call ----> ./testSURF image50.jpg highway.avi
+## Then call ----> ./testSURF images.txt threshold.txt highway.avi highway1.avi
+
+## threshold.txt
+### values in float like:
+### 0.1
+### 0.087
+
+## images.txt
+### PATH TO TEST IMAGES
+### ../image50.jpg
+### ../image270.jpg
